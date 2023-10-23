@@ -7,19 +7,13 @@ export default function Writing() {
     const posts = [
         {
             title: 'Creators economy in crypto',
-            description: 'Since mid 2020, I’ve focused my energy on Compound.',
-            year: '2023',
-            link: '/',
-        },
-        {
-            title: 'Im building a SaaS and I dont know what Im doing',
             description: '',
             year: '2023',
             link: '/',
         },
         {
             title: 'Ethereum vs Tezos',
-            description: '',
+            description: 'Understanding the "Ethereum vs. Tezos" discussions',
             year: '2023',
             link: '/',
         },

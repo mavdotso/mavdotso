@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react';
 
 type AnimatedTextProps = {
     text?: string;
-    delay?: number; // delay in milliseconds before the animation starts
+    delay?: number;
 };
 
 type CharState = {
@@ -11,7 +11,7 @@ type CharState = {
     opacity: number;
 };
 
-const AnimatedText: React.FC<AnimatedTextProps> = ({ text, delay }) => {
+const AnimatedText: React.FC<AnimatedTextProps> = ({ text = '', delay }) => {
     const initialCharState: CharState[] = new Array(text.length).fill({ char: '', opacity: 0 });
     const [displayedChars, setDisplayedChars] = useState<CharState[]>(initialCharState);
 
@@ -61,11 +61,7 @@ const AnimatedText: React.FC<AnimatedTextProps> = ({ text, delay }) => {
     return (
         <>
             {displayedChars.map((charState, index) => (
-                <span
-                    key={index}
-                    className="preload__letter"
-                    style={{ opacity: charState.opacity }} // Apply the opacity from the state
-                >
+                <span key={index} style={{ opacity: charState.opacity }}>
                     {charState.char}
                 </span>
             ))}

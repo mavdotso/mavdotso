@@ -12,7 +12,7 @@ interface TextCardProps {
 export default function TextCard({ title, description, year, index, link = '/' }: TextCardProps) {
     return (
         <Link href={link} className="rounded-lg overflow-hidden flex items-center justify-between gap-2 py-4 -mx-3 px-2 hover:bg-muted">
-            <div className="flex gap-2">
+            <div className="flex gap-2 h-5">
                 <div className="font-medium text-sm flex-shrink-0">
                     <AnimatedText delay={index * 100} text={title} />
                 </div>

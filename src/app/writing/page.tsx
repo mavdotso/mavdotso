@@ -8,7 +8,7 @@ export default function Writing() {
         {
             title: 'Creators economy in crypto',
             description: '',
-            year: '2023',
+            year: '2022',
             link: '/',
         },
         {

@@ -1,6 +1,6 @@
-import { PageDescription } from '@/components/pages/PageDescription';
-import { PageTitle } from '@/components/pages/PageTitle';
-import { PageWrapper } from '@/components/pages/PageWrapper';
+import { PageDescription } from '@/components/pages/page-description';
+import { PageTitle } from '@/components/pages/page-title';
+import { PageWrapper } from '@/components/pages/page-wrapper';
 
 export default function Projects() {
     return (

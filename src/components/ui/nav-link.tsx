@@ -8,7 +8,7 @@ export default function NavLink({ children, path }: { children: ReactNode; path:
     return (
         <Link
             href={path}
-            className={`border flex items-center gap-2.5 px-3 py-2.5 rounded-md text-sm ${pathname === path ? ' border-input bg-background shadow-sm' : 'border-transparent hover:bg-background'}`}
+            className={`border flex items-center gap-3 px-3 py-2 rounded-lg text-sm ${pathname === path ? ' border-input bg-background shadow-sm' : 'border-transparent hover:bg-background'}`}
         >
             {children}
         </Link>

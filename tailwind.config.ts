@@ -11,6 +11,10 @@ module.exports = {
             },
         },
         extend: {
+            backgroundImage: {
+                'grainy-primary': 'var(--grainy-primary)',
+                'grainy-secondary': 'var(--grainy-secondary)',
+            },
             colors: {
                 border: 'hsl(var(--border))',
                 input: 'hsl(var(--input))',
@@ -24,6 +28,9 @@ module.exports = {
                 secondary: {
                     DEFAULT: 'hsl(var(--secondary))',
                     foreground: 'hsl(var(--secondary-foreground))',
+                },
+                'primary-font': {
+                    DEFAULT: 'hsl(var(--primary-font))',
                 },
                 'secondary-font': {
                     DEFAULT: 'hsl(var(--secondary-font))',
@@ -48,6 +55,9 @@ module.exports = {
                     DEFAULT: 'hsl(var(--card))',
                     foreground: 'hsl(var(--card-foreground))',
                 },
+            },
+            fontFamily: {
+                heading: 'var(--font-gt-super-display)',
             },
             borderRadius: {
                 lg: 'var(--radius)',

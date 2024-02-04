@@ -1,7 +1,7 @@
-import { PageDescription } from '@/components/pages/PageDescription';
-import { PageTitle } from '@/components/pages/PageTitle';
-import { PageWrapper } from '@/components/pages/PageWrapper';
-import TextCard from '@/components/writing/TextCard';
+import { PageDescription } from '@/components/pages/page-description';
+import { PageTitle } from '@/components/pages/page-title';
+import { PageWrapper } from '@/components/pages/page-wrapper';
+import TextCard from '@/components/writing/text-card';
 
 export default function Writing() {
     const posts = [

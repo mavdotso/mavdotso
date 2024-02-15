@@ -1,9 +1,12 @@
+'use client';
 import { LucideIcon } from 'lucide-react';
 import NavLink from './ui/nav-link';
 import Logo from './logo';
 import DetailedView from './detailed-view';
 import Link from 'next/link';
 import { SidebarMenu, SocialLinks } from '@/config/navigation';
+import { useContext, useRef } from 'react';
+import { GlobalNavigationContext } from './providers';
 
 interface Props {
     href: string;
@@ -12,9 +15,14 @@ interface Props {
 }
 
 export default function Sidebar() {
+    const { isOpen } = useContext(GlobalNavigationContext);
+    const scrollContainerRef = useRef(null);
+
+    const sidebarClasses = isOpen ? 'transform translate-x-0 ease-out' : 'transform -translate-x-full ease-in';
+
     return (
         <>
-            <nav className="overflow-hidden flex-none grid w-56 p-2 py-6 content-between">
+            <nav ref={scrollContainerRef} className={`overflow-hidden flex-none grid w-56 p-2 py-6 content-between`}>
                 <div>
                     <div className="flex items-center pl-3.5">
                         <Logo />
@@ -33,7 +41,7 @@ export default function Sidebar() {
                     ))}
                 </div>
             </nav>
-            <DetailedView />
+            <DetailedView className={isOpen} />
         </>
     );
 }

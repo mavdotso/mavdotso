@@ -1,9 +1,9 @@
-# hi, I'm mav
+# Hi, I'm mav
 
 I'm a developer with experience in design and marketing. 
 I build apps, contribute to Web3, and write.
 
-## Tech Stack
+## Tech stack
 **Web2**: Convex, React, Next.js, Tailwind, TypeScript  
 **Web3**: Foundry, Solidity, Ethers, WAGMI/Viem  
 

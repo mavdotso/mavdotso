@@ -5,7 +5,7 @@ I build apps, contribute to Web3, and write.
 
 ## Tech Stack
 **Web2**: Convex, React, Next.js, Tailwind, TypeScript  
-**Web3**: Foundry, Solidity, Ethers.js, WAGMI.sh, Viem.sh, Infura  
+**Web3**: Foundry, Solidity, Ethers, WAGMI/Viem  
 
 ## Writing
 - [Okay, I'll Bite — What the heck is Monad?](https://hackernoon.com/okay-ill-bite-what-the-heck-is-monad)

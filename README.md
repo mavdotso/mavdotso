@@ -1,4 +1,4 @@
-# Hi, I'm Mav
+# hi, I'm mav
 
 I'm a developer with experience in design and marketing. 
 I build apps, contribute to Web3, and write.

@@ -7,6 +7,11 @@ I build apps, contribute to Web3, and write.
 **Web2**: Convex, React, Next.js, Tailwind, TypeScript  
 **Web3**: Foundry, Solidity, Ethers, WAGMI/Viem  
 
+## Projects
+- [lokey.cc](https://lokey.cc/)
+- [Squiggle Data](https://www.squiggledata.com/)
+- [Stellars DAO]([https://www.squiggledata.com/](https://stellarsdao.com/))
+
 ## Writing
 - [Okay, I'll Bite — What the heck is Monad?](https://hackernoon.com/okay-ill-bite-what-the-heck-is-monad)
 - [The Oracle Solution: Why Decentralizing Everything Is Less Difficult Than it Sounds](https://hackernoon.com/the-oracle-solution-why-decentralizing-everything-is-less-difficult-than-it-sounds)

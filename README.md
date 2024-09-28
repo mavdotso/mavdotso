@@ -10,7 +10,7 @@ I build apps, contribute to Web3, and write.
 ## Projects
 - [lokey.cc](https://lokey.cc/)
 - [Squiggle Data](https://www.squiggledata.com/)
-- [Stellars DAO]([https://www.squiggledata.com/](https://stellarsdao.com/))
+- [Stellars DAO](https://stellarsdao.com/)
 
 ## Writing
 - [Okay, I'll Bite — What the heck is Monad?](https://hackernoon.com/okay-ill-bite-what-the-heck-is-monad)

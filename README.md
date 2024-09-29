@@ -8,9 +8,9 @@ I build apps, contribute to Web3, and write.
 **Web3**: Foundry, Solidity, Ethers, WAGMI/Viem  
 
 ## Projects
-- [lokey.cc](https://lokey.cc/)
-- [Squiggle Data](https://www.squiggledata.com/)
-- [Stellars DAO](https://stellarsdao.com/)
+- [lokey.cc](https://lokey.cc/) — Secure credentials sharing with superpowers
+- [Squiggle Data](https://www.squiggledata.com/) — Explore the math and metadata of Chromie Squiggles
+- [Stellars DAO](https://stellarsdao.com/) — A collective focused on acquiring stellar pieces of generative art
 
 ## Writing
 - [Okay, I'll Bite — What the heck is Monad?](https://hackernoon.com/okay-ill-bite-what-the-heck-is-monad)
